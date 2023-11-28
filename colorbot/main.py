@@ -28,7 +28,7 @@ def mouse_move(x, y):
     win32api.mouse_event(win32con.MOUSEEVENTF_MOVE, x, y, 0, 0)
 
 
-# Simulates a left mouse click. Waits for 0.04 seconds to simulate a natural click.
+# Simulates a left mouse click
 def mouse_click():
     win32api.mouse_event(win32con.MOUSEEVENTF_LEFTDOWN, 0, 0, 0, 0)
     sleep(0.01)
