@@ -18,7 +18,7 @@ pip install pywin32
 ```
 
 ## Configuring settings
-Let's configure out settings
+Let's configure our settings
 ```py
 # Define constants for the desired clicks per second and the rapid-fire key
 CLICKS_PER_SECOND = 20  # Number of clicks to simulate per second
