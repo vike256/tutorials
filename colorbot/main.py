@@ -55,7 +55,7 @@ def main():
         screen_center[1] + fov_area[1] // 2
     )
 
-    print('Starting loop')
+    print('Start')
 
     # The main program loop
     while True:
@@ -127,6 +127,8 @@ def main():
         if win32api.GetAsyncKeyState(win32con.VK_RBUTTON) < 0 and (move_x != 0 or move_y != 0):
             mouse_move(move_x, move_y)
             print(f'Move {move_x}, {move_y}')
+
+    print('Exit')
 
 
 if __name__ == '__main__':

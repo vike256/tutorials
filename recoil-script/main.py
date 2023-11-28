@@ -20,6 +20,7 @@ def mouse_move(x, y):
 
 # Define the main program loop
 def main():
+    print('Start')
     # The main program loop
     while True:
         # Check if the F1 key is pressed to exit the loop
@@ -31,6 +32,8 @@ def main():
             mouse_move(RECOIL_X, RECOIL_Y)  # Send mouse input based on recoil values
 
         time.sleep(DELAY / 1000)  # Delay between adjustments
+
+    print('Exit')
 
 
 # Run the main program
