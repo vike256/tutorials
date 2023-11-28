@@ -40,8 +40,8 @@ def mouse_move(x, y):
 ## Writing the script
 The main part of the recoil script is a loop that checks for mouse input. When the left mouse button is down, the script moves the mouse to counteract the recoil.
 ```py
-# Define the main program loop
 def main():
+    print('Start')
     # The main program loop
     while True:
         # Check if the F1 key is pressed to exit the loop
@@ -51,7 +51,10 @@ def main():
         # Check if the left mouse button is clicked to trigger recoil adjustment
         if win32api.GetAsyncKeyState(win32con.VK_LBUTTON) < 0:
             mouse_move(RECOIL_X, RECOIL_Y)  # Send mouse input based on recoil values
-            time.sleep(DELAY / 1000)  # Introduce a delay between adjustments
+
+        time.sleep(DELAY / 1000)  # Delay between adjustments
+
+    print('Exit')
 
 
 # Run the main program

@@ -60,7 +60,7 @@ Our main program loop is quite simple. We just check if the keybind is down and 
 def main():
     global last_click_time
 
-    print('Starting loop')
+    print('Start')
     while True:
         # Check if the F1 key is pressed to exit the loop
         if win32api.GetAsyncKeyState(win32con.VK_F1) < 0:
@@ -75,7 +75,9 @@ def main():
 
         # Otherwise, sleep for a short period to avoid unnecessary processing
         else:
-            time.sleep(0.01)
+            time.sleep(0.001)
+
+    print('Exit')
 
 
 # Run the main program
