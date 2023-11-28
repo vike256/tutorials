@@ -12,7 +12,11 @@ import win32api  # Import the win32api library to interact with the Windows API
 import win32con  # Import the win32con library for Windows constants
 import time  # Import the time library for timing operations
 ```
-The win32api library provides access to the Windows API, which allows you to control the mouse. The win32con library contains constants that are used by the win32api library. The time library allows you to sleep the script for a specified amount of time.
+
+If you don't have the win32api library installed you can install it with this console command:  
+```
+pip install pywin32
+```
 
 ## Configuring settings
 Before you can write the recoil script, you need to configure some settings. These settings will determine how much the mouse moves each time the script is executed.
