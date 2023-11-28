@@ -24,7 +24,7 @@ def mouse_click():
 
     # Simulate pressing and releasing the left mouse button
     win32api.mouse_event(win32con.MOUSEEVENTF_LEFTDOWN, 0, 0, 0, 0)
-    time.sleep(0.01)
+    time.sleep(0.001)
     win32api.mouse_event(win32con.MOUSEEVENTF_LEFTUP, 0, 0, 0, 0)
 
     # Print a message indicating a click has been simulated
@@ -50,7 +50,7 @@ def main():
 
         # Otherwise, sleep for a short period to avoid unnecessary processing
         else:
-            time.sleep(0.01)
+            time.sleep(0.001)
 
     print('Exit')
 
