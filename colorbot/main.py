@@ -26,7 +26,7 @@ LOWER_COLOR = np.array([58, 210, 80])  # Lower bound of the color range to targe
 # Defining a function that moves the mouse according to the given x and y value
 def mouse_move(x, y):
     win32api.mouse_event(win32con.MOUSEEVENTF_MOVE, x, y, 0, 0)
-    print(f'Move {move_x}, {move_y}')
+    print(f'Move {x}, {y}')
 
 
 # Simulates a left mouse click
