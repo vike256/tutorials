@@ -90,8 +90,6 @@ But let's not forget about defining our variables
 target = (0, 0)  # Target coordinates
 trigger = False  # Flag indicating whether to click
 closest_target = None  # Variable to store the closest target contour
-move_x = 0  # Horizontal movement value
-move_y = 0  # Vertical movement value
 ```
 
 ## Color filtering
