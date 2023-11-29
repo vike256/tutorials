@@ -1,3 +1,5 @@
+This tutorial was written by [vike256](https://github.com/vike256/)
+
 ## Colorbot
 
 A colorbot is a cheat, usually an aimbot or a triggerbot, that captures the screen and detects enemies based on a specified range of color.  
