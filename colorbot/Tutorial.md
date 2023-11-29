@@ -1,4 +1,6 @@
-This tutorial was written by [vike256](https://github.com/vike256/)
+This tutorial was written by [vike256](https://github.com/vike256/)  
+Consider donating: https://github.com/vike256#donations  
+Check out [Unibot](https://github.com/vike256/Unibot), my open-source colorbot project  
 
 ## Colorbot
 
