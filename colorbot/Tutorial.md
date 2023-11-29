@@ -31,7 +31,7 @@ Mouse input can be done in many ways but we'll use the easiest method: Windows A
 # Defining a function that moves the mouse according to the given x and y value
 def mouse_move(x, y):
     win32api.mouse_event(win32con.MOUSEEVENTF_MOVE, x, y, 0, 0)
-    print(f'Move {move_x}, {move_y}')
+    print(f'Move {x}, {y}')
 
 
 # Simulates a left mouse click
