@@ -23,6 +23,7 @@ SPEED = 1  # Movement speed
 UPPER_COLOR = np.array([63, 255, 255])  # Upper bound of the color range to target
 LOWER_COLOR = np.array([58, 210, 80])  # Lower bound of the color range to target
 ```
+If you don't know how to find your target color range, see: [Unibot Wiki | Finding target color range](https://github.com/vike256/Unibot/wiki/Finding-target-color-range)
 
 
 ## Mouse input
