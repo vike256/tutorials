@@ -26,6 +26,7 @@ LOWER_COLOR = np.array([58, 210, 80])  # Lower bound of the color range to targe
 # Defining a function that moves the mouse according to the given x and y value
 def mouse_move(x, y):
     win32api.mouse_event(win32con.MOUSEEVENTF_MOVE, x, y, 0, 0)
+    print(f'Move {move_x}, {move_y}')
 
 
 # Simulates a left mouse click
@@ -33,6 +34,7 @@ def mouse_click():
     win32api.mouse_event(win32con.MOUSEEVENTF_LEFTDOWN, 0, 0, 0, 0)
     sleep(0.01)
     win32api.mouse_event(win32con.MOUSEEVENTF_LEFTUP, 0, 0, 0, 0)
+    print('Click')
 
 
 def main():
@@ -121,12 +123,10 @@ def main():
         # Click if target at the center of the screen and left Ctrl is pressed
         if trigger and win32api.GetAsyncKeyState(win32con.VK_LCONTROL) < 0:
             mouse_click()
-            print('Click')
 
         # Move if target outside the center of the screen and right mouse button pressed
         if win32api.GetAsyncKeyState(win32con.VK_RBUTTON) < 0 and (move_x != 0 or move_y != 0):
             mouse_move(move_x, move_y)
-            print(f'Move {move_x}, {move_y}')
 
     print('Exit')
 
