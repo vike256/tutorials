@@ -2,6 +2,8 @@ This tutorial was written by [vike256](https://github.com/vike256/)
 Consider donating: https://github.com/vike256#donations  
 Check out [Unibot](https://github.com/vike256/Unibot), my open-source colorbot project  
 
+[Full code here](https://github.com/vike256/tutorials/blob/main/recoil-script/main.py)  
+
 ## Recoil script
 A recoil script is a program that automatically adjusts the mouse position to counteract the recoil of a weapon in a video game.  
 
