@@ -2,6 +2,8 @@ This tutorial was written by [vike256](https://github.com/vike256/)
 Consider donating: https://github.com/vike256#donations  
 Check out [Unibot](https://github.com/vike256/Unibot), my open-source colorbot project  
 
+[Full code here](https://github.com/vike256/tutorials/blob/main/rapid-fire/main.py)  
+
 ## Rapid-fire
 This is a tutorial on how to make your own rapid-fire script.
 Rapid-fire script clicks the left mouse button at a specified frequency.
