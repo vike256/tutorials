@@ -7,8 +7,6 @@ Check out [Unibot](https://github.com/vike256/Unibot), my open-source colorbot p
 ## Recoil script
 A recoil script is a program that automatically adjusts the mouse position to counteract the recoil of a weapon in a video game.  
 
-Python is a popular language for writing recoil scripts because it is easy to learn and use. It also has a number of libraries that can be used to interact with the Windows API, which is necessary for controlling the mouse.
-
 ## Importing libraries
 To write a recoil script in Python, you will need to import the following libraries:
 ```py
