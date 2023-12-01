@@ -2,6 +2,8 @@ This tutorial was written by [vike256](https://github.com/vike256/)
 Consider donating: https://github.com/vike256#donations  
 Check out [Unibot](https://github.com/vike256/Unibot), my open-source colorbot project  
 
+[Full code here](https://github.com/vike256/tutorials/colorbot/main.py)
+
 ## Colorbot
 
 A colorbot is a cheat, usually an aimbot or a triggerbot, that captures the screen and detects enemies based on a specified range of color.  
